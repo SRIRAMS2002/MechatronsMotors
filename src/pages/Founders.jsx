@@ -5,7 +5,7 @@ const Founders = () => {
   const Founders1 = [
     {
       id: 1,
-      name: 'Sriram',
+      name: 'Sriram s',
       href: '#',
       imageSrc:{sriram},
       imageAlt: "Front of men's Basic Tee in black.",
