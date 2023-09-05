@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply text-violet-900 text-xl w-10 h-10;
+}
