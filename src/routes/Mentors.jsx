@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
+import Navbar from '../Components/Navbar';
+import pic1 from '../assets/Team/Members/20-24 DURGADASS V C.jpg'
 
 const Mentors = () => {
 
@@ -8,7 +9,7 @@ const Mentors = () => {
       id: 1,
       name: 'Sriram S',
       href: '#',
-      imageSrc:'https://rare-gallery.com/thumbs/324508-Nezuko-Cute-Kimetsu-no-Yaiba-4K-iphone-wallpaper.jpg',
+      imageSrc:{pic1},
       imageAlt: "Front of men's Basic Tee in black.",
       color: 'Software Developer',
     },
@@ -112,40 +113,12 @@ const Mentors = () => {
       </div>
 
 
-      {/* Mentors2 */}
+
 
 
       <div className=" mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-900 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"></div>
       
-        <div className="mx-auto max-w-2xl px-4  sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">2019-2020</h2>
-
-        <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4 xl:gap-x-8">
-          {Mentors2.map((product) => (
-           <div key={product.id} className="group relative">
-           <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-             <img
-               src={product.imageSrc}
-               
-               className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-             />
-           </div>
-           <div className="mt-4 flex justify-between">
-             <div>
-               <h3 className="text-md font-bold text-gray-900">
-                 <a href={product.href}>
-                   <span aria-hidden="true" className="absolute inset-0" />
-                   {product.name}
-                 </a>
-               </h3>
-               <p className="mt-1 text-md text-gray-900">{product.color}</p>
-             </div>
-            
-           </div>
-         </div>
-          ))}
-        </div>
-      </div>
+       
 
       </div>
     </div>
